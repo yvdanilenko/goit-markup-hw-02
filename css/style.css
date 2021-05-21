@@ -176,3 +176,11 @@ body {
   line-height: 1.556;
   letter-spacing: 0.03em;
 }
+
+/* -------------- СТИЛИЗАЦИЯ address list---------------------------------------- */
+.address-list-item:hover,
+.address-list-item:focus,
+.contacts-list-item:hover,
+.contacts-list-item:focus {
+  color: var(--accent-color);
+}
