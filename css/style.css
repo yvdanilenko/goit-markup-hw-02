@@ -79,8 +79,12 @@ body {
   background: var(--background-color-fon);
 }
 
-.hidden {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .team-section {
@@ -173,12 +177,9 @@ body {
   background: none;
 }
 
-.main-btn {
-  background: var(--dark-background-color);
-  color: var(--white-color);
-}
 .button-list-btn:hover,
-.button-list-btn:focus {
+.button-list-btn:focus,
+.button-list-btn:active {
   color: var(--white-color);
   background: var(--dark-background-color);
 }
