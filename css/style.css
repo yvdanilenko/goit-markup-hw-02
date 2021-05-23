@@ -61,7 +61,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-list-link:hover,
+.nav-list-link a:hover,
+.nav-list-link a:focus,
+.contacts-list-item a:hover,
+.contacts-list-item a:focus,
 .current-page {
   color: var(--accent-color);
 }
@@ -74,6 +77,10 @@ body {
 .hero-section,
 .footer-section {
   background: var(--background-color-fon);
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 .team-section {
@@ -165,6 +172,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background: none;
 }
+
+.main-btn {
+  background: var(--dark-background-color);
+  color: var(--white-color);
+}
 .button-list-btn:hover,
 .button-list-btn:focus {
   color: var(--white-color);
@@ -192,9 +204,12 @@ body {
 }
 
 /* -------------- СТИЛИЗАЦИЯ address list---------------------------------------- */
-.address-list-item:hover,
-.address-list-item:focus,
-.contacts-list-item:hover,
-.contacts-list-item:focus {
+
+.address-list-item a:hover,
+.address-list-item a:focus {
   color: var(--accent-color);
+}
+
+.address {
+  color: var(--white-color);
 }
