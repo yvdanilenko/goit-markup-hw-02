@@ -159,11 +159,15 @@ body {
 }
 .address-list-item {
   font-style: normal;
+  color: var(--white-color);
+}
+
+.address-list-link {
+  opacity: 0.6;
 }
 
 /* -------------- СТИЛИЗАЦИЯ portfolio---------------------------------------- */
 .button-list-btn {
-  /* color: var(--title-text-color); */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6325;
